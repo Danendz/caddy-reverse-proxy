@@ -48,6 +48,7 @@
  			transport http {
             	versions 1.1
         	}
+			request_buffers 1MiB
             import lb_settings
             import passive_health_checks
         }
